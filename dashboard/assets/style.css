@@ -1,0 +1,89 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.metric-card {
+    background: white;
+    border-radius: 10px;
+    padding: 18px 20px;
+    border: 0.5px solid #e0e0e0;
+    text-align: center;
+}
+
+.metric-value {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.metric-label {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 4px 0 0 0;
+}
+
+.section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222;
+    margin: 24px 0 12px 0;
+    padding-bottom: 6px;
+    border-bottom: 2px solid #7F77DD;
+    display: inline-block;
+}
+
+.insight-box {
+    background: #E1F5EE;
+    border-left: 3px solid #1D9E75;
+    border-radius: 0 8px 8px 0;
+    padding: 10px 16px;
+    font-size: 13px;
+    color: #085041;
+    margin: 12px 0 20px 0;
+    line-height: 1.6;
+}
+
+.page-header {
+    background: white;
+    border-bottom: 0.5px solid #e8e8e8;
+    padding: 16px 28px;
+    margin-bottom: 24px;
+}
+
+.page-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0;
+}
+
+.page-subtitle {
+    font-size: 13px;
+    color: #888;
+    margin: 3px 0 0 0;
+}
+
+.prediction-result {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 0.5px solid #e0e0e0;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.win-team {
+    font-size: 26px;
+    font-weight: 700;
+    color: #085041;
+}
+
+.win-prob {
+    font-size: 44px;
+    font-weight: 700;
+    color: #1D9E75;
+}

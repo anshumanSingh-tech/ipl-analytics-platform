@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ipl-analytics
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python waitress_server.py
