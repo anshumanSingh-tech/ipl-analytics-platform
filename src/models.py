@@ -6,7 +6,7 @@ import warnings
 warnings.filterwarnings("ignore", category=UserWarning, module="sklearn")
 
 # ── Paths ─────────────────────────────────────────────────────────────
-_BASE    = Path(__file__).parent.parent   # project root
+_BASE    = Path(__file__).parent.parent  
 MODELS   = _BASE / "data" / "processed" / "models"
 DATA     = _BASE / "data" / "processed"
 

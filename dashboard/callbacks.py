@@ -12,8 +12,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.models import predict_winner, predict_auction_value
 
-PROCESSED = Path("E:/ipl-analytics/data/processed")
-MODELS    = Path("E:/ipl-analytics/data/processed/models")
+PROCESSED = Path(__file__).parent.parent / "data" / "processed"
+MODELS    = PROCESSED / "models"
 
 matches    = pd.read_csv(PROCESSED / "matches_clean.csv",  parse_dates=["date"])
 batting    = pd.read_csv(PROCESSED / "batting_features.csv")

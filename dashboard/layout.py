@@ -9,9 +9,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.models import get_available_teams, get_available_venues
 
-
-MODELS    = Path("E:/ipl-analytics/data/processed/models")
-PROCESSED = Path("E:/ipl-analytics/data/processed")
+PROCESSED = Path(__file__).parent.parent / "data" / "processed"
+MODELS = PROCESSED / "models"
 
 # ── Load static data for dropdowns ───────────────────────────────────
 team_season = pd.read_csv(PROCESSED / "team_season_stats.csv")
