@@ -1208,3 +1208,37 @@ match_id,season,city,date,match_type,player_of_match,venue,team1,team2,toss_winn
 1426424,2026,Lucknow,2026-04-26,,RK Singh,Ekana Stadium,Kolkata Knight Riders,Lucknow Super Giants,Lucknow Super Giants,field,No Result,normal,0,0,,,,,,no_result,0,Sunday,4
 1426425,2026,Delhi,2026-04-27,,JR Hazlewood,Feroz Shah Kotla,Delhi Capitals,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,wickets,9,0,,,,,,wickets,0,Monday,4
 1426426,2026,New Chandigarh,2026-04-28,,D Ferreira,Mullanpur Stadium,Punjab Kings,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,wickets,6,0,,,,,,wickets,0,Tuesday,4
+1426427,2026,Mumbai,2026-04-29,,H Klaasen,Wankhede Stadium,Mumbai Indians,Sunrisers Hyderabad,Mumbai Indians,bat,Sunrisers Hyderabad,wickets,6,0,,,,,,wickets,0,Wednesday,4
+1426428,2026,Ahmedabad,2026-04-30,,JO Holder,Motera Stadium,Royal Challengers Bangalore,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,wickets,4,0,,,,,,wickets,0,Thursday,4
+1426429,2026,Jaipur,2026-05-01,,KL Rahul,"Sawai Mansingh Stadium, Jaipur",Rajasthan Royals,Delhi Capitals,Rajasthan Royals,bat,Delhi Capitals,wickets,7,0,,,,,,wickets,0,Friday,5
+1426430,2026,Chennai,2026-05-02,,RD Gaikwad,MA Chidambaram Stadium,Mumbai Indians,Chennai Super Kings,Mumbai Indians,bat,Chennai Super Kings,wickets,8,0,,,,,,wickets,0,Saturday,5
+1426431,2026,Hyderabad,2026-05-03,,CV Varun,Uppal Stadium,Sunrisers Hyderabad,Kolkata Knight Riders,Sunrisers Hyderabad,bat,Kolkata Knight Riders,wickets,7,0,,,,,,wickets,0,Sunday,5
+1426432,2026,Ahmedabad,2026-05-03,,JO Holder,Motera Stadium,Punjab Kings,Gujarat Titans,Gujarat Titans,field,Gujarat Titans,wickets,4,0,,,,,,wickets,0,Sunday,5
+1426433,2026,Mumbai,2026-05-04,,RD Rickelton,Wankhede Stadium,Lucknow Super Giants,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,wickets,6,0,,,,,,wickets,0,Monday,5
+1426434,2026,Delhi,2026-05-05,,SV Samson,Feroz Shah Kotla,Delhi Capitals,Chennai Super Kings,Delhi Capitals,bat,Chennai Super Kings,wickets,8,0,,,,,,wickets,0,Tuesday,5
+1426435,2026,Hyderabad,2026-05-06,,PJ Cummins,Uppal Stadium,Sunrisers Hyderabad,Punjab Kings,Punjab Kings,field,Sunrisers Hyderabad,runs,33,0,,,,,,runs,0,Wednesday,5
+1426436,2026,Lucknow,2026-05-07,,MR Marsh,Ekana Stadium,Lucknow Super Giants,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Lucknow Super Giants,runs,9,0,,,,,,runs,0,Thursday,5
+1426437,2026,Delhi,2026-05-08,,FH Allen,Feroz Shah Kotla,Delhi Capitals,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,wickets,8,0,,,,,,wickets,0,Friday,5
+1426438,2026,Jaipur,2026-05-09,,Rashid Khan,"Sawai Mansingh Stadium, Jaipur",Gujarat Titans,Rajasthan Royals,Rajasthan Royals,field,Gujarat Titans,runs,77,0,,,,,,runs,0,Saturday,5
+1426439,2026,Chennai,2026-05-10,,J Overton,MA Chidambaram Stadium,Lucknow Super Giants,Chennai Super Kings,Chennai Super Kings,field,Chennai Super Kings,wickets,5,0,,,,,,wickets,0,Sunday,5
+1426440,2026,Raipur,2026-05-10,,B Kumar,"Shaheed Veer Narayan Singh International Stadium, Raipur",Mumbai Indians,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,wickets,2,0,,,,,,wickets,0,Sunday,5
+1426441,2026,Dharamsala,2026-05-11,,M Tiwari,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Punjab Kings,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,wickets,3,0,,,,,,wickets,0,Monday,5
+1426442,2026,Ahmedabad,2026-05-12,,K Rabada,Motera Stadium,Gujarat Titans,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Gujarat Titans,runs,82,0,,,,,,runs,0,Tuesday,5
+1426443,2026,Raipur,2026-05-13,,V Kohli,"Shaheed Veer Narayan Singh International Stadium, Raipur",Kolkata Knight Riders,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,wickets,6,0,,,,,,wickets,0,Wednesday,5
+1426444,2026,Dharamsala,2026-05-14,,Tilak Varma,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Punjab Kings,Mumbai Indians,Mumbai Indians,field,Mumbai Indians,wickets,6,0,,,,,,wickets,0,Thursday,5
+1426445,2026,Lucknow,2026-05-15,,MR Marsh,Ekana Stadium,Chennai Super Kings,Lucknow Super Giants,Lucknow Super Giants,field,Lucknow Super Giants,wickets,7,0,,,,,,wickets,0,Friday,5
+1426446,2026,Kolkata,2026-05-16,,SP Narine,Eden Gardens,Kolkata Knight Riders,Gujarat Titans,Gujarat Titans,field,Kolkata Knight Riders,runs,29,0,,,,,,runs,0,Saturday,5
+1426447,2026,Dharamsala,2026-05-17,,VR Iyer,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Royal Challengers Bangalore,Punjab Kings,Punjab Kings,field,Royal Challengers Bangalore,runs,23,0,,,,,,runs,0,Sunday,5
+1426448,2026,Delhi,2026-05-17,,MA Starc,Feroz Shah Kotla,Rajasthan Royals,Delhi Capitals,Delhi Capitals,field,Delhi Capitals,wickets,5,0,,,,,,wickets,0,Sunday,5
+1426449,2026,Chennai,2026-05-18,,Ishan Kishan,MA Chidambaram Stadium,Chennai Super Kings,Sunrisers Hyderabad,Chennai Super Kings,bat,Sunrisers Hyderabad,wickets,5,0,,,,,,wickets,0,Monday,5
+1426450,2026,Jaipur,2026-05-19,,V Suryavanshi,"Sawai Mansingh Stadium, Jaipur",Lucknow Super Giants,Rajasthan Royals,Rajasthan Royals,field,Rajasthan Royals,wickets,7,0,,,,,,wickets,0,Tuesday,5
+1426451,2026,Kolkata,2026-05-20,,MK Pandey,Eden Gardens,Mumbai Indians,Kolkata Knight Riders,Kolkata Knight Riders,field,Kolkata Knight Riders,wickets,4,0,,,,,,wickets,0,Wednesday,5
+1426452,2026,Ahmedabad,2026-05-21,,Mohammed Siraj,Motera Stadium,Gujarat Titans,Chennai Super Kings,Chennai Super Kings,field,Gujarat Titans,runs,89,0,,,,,,runs,0,Thursday,5
+1426453,2026,Hyderabad,2026-05-22,,Ishan Kishan,Uppal Stadium,Sunrisers Hyderabad,Royal Challengers Bangalore,Sunrisers Hyderabad,bat,Sunrisers Hyderabad,runs,55,0,,,,,,runs,0,Friday,5
+1426454,2026,Lucknow,2026-05-23,,SS Iyer,Ekana Stadium,Lucknow Super Giants,Punjab Kings,Punjab Kings,field,Punjab Kings,wickets,7,0,,,,,,wickets,0,Saturday,5
+1426455,2026,Mumbai,2026-05-24,,JC Archer,Wankhede Stadium,Rajasthan Royals,Mumbai Indians,Mumbai Indians,field,Rajasthan Royals,runs,30,0,,,,,,runs,0,Sunday,5
+1426456,2026,Kolkata,2026-05-24,,Kuldeep Yadav,Eden Gardens,Delhi Capitals,Kolkata Knight Riders,Kolkata Knight Riders,field,Delhi Capitals,runs,40,0,,,,,,runs,0,Sunday,5
+1426457,2026,Dharamsala,2026-05-26,,RM Patidar,"Himachal Pradesh Cricket Association Stadium, Dharamsala",Royal Challengers Bangalore,Gujarat Titans,Gujarat Titans,field,Royal Challengers Bangalore,runs,92,0,,,,,,runs,0,Tuesday,5
+1426458,2026,New Chandigarh,2026-05-27,,V Suryavanshi,Mullanpur Stadium,Rajasthan Royals,Sunrisers Hyderabad,Sunrisers Hyderabad,field,Rajasthan Royals,runs,47,0,,,,,,runs,0,Wednesday,5
+1426459,2026,New Chandigarh,2026-05-29,,Shubman Gill,Mullanpur Stadium,Rajasthan Royals,Gujarat Titans,Rajasthan Royals,bat,Gujarat Titans,wickets,7,0,,,,,,wickets,0,Friday,5
+1426460,2026,Ahmedabad,2026-05-31,,V Kohli,Motera Stadium,Gujarat Titans,Royal Challengers Bangalore,Royal Challengers Bangalore,field,Royal Challengers Bangalore,wickets,5,0,,,,,,wickets,0,Sunday,5

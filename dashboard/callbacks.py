@@ -219,7 +219,7 @@ def register_callbacks(app):
         players = [p for p in [player1, player2] if p]
 
         # ── Metric cards for primary player ───────────────────────
-        p1 = batting[batting["batter"] == player1].iloc[0]
+        p1 = batting[batting["batsman"] == player1].iloc[0]
 
         def bat_card(value, label):
             return dbc.Col(html.Div([
@@ -238,7 +238,7 @@ def register_callbacks(app):
 
         # ── Batting scatter: all players, highlight selected ──────
         plot_df = batting[batting["balls_faced"] >= 200].copy()
-        plot_df["highlight"] = plot_df["batter"].apply(
+        plot_df["highlight"] = plot_df["batsman"].apply(
             lambda x: x if x in players else "others"
         )
         plot_df = plot_df.sort_values(
@@ -256,7 +256,7 @@ def register_callbacks(app):
             color="highlight",
             color_discrete_map=color_map,
             size="total_runs", size_max=22,
-            hover_name="batter",
+            hover_name="batsman",
             hover_data={"total_runs": True, "highlight": False},
             labels={
                 "batting_average": "batting average",
@@ -274,7 +274,7 @@ def register_callbacks(app):
         # ── Phase SR comparison ────────────────────────────────────
         phase_data = []
         for p in players:
-            row = batting[batting["batter"] == p]
+            row = batting[batting["batsman"] == p]
             if row.empty:
                 continue
             row = row.iloc[0]
@@ -367,10 +367,10 @@ def register_callbacks(app):
     )
     def update_player_table(table_type):
         if table_type == "batting":
-            cols = ["batter", "total_runs", "batting_average",
+            cols = ["batsman", "total_runs", "batting_average",
                     "strike_rate", "hundreds", "fifties",
                     "boundary_rate", "matches_batted"]
-            df = batting[cols].copy().rename(columns={"batter": "player"})
+            df = batting[cols].copy().rename(columns={"batsman": "player"})
             df = df.sort_values("total_runs", ascending=False).round(2)
         else:
             cols = ["bowler", "wickets", "economy_rate",

@@ -141,7 +141,9 @@ def clean_matches(matches: pd.DataFrame) -> pd.DataFrame:
 def clean_deliveries(deliveries: pd.DataFrame) -> pd.DataFrame:
     df = deliveries.copy()
     
-    df = df.rename(columns={"batter":"batsman"})
+    df = df.rename(columns={
+        "batter": "batsman",
+    })
     
     for col in ["batting_team", "bowling_team"]:
         if col in df.columns:

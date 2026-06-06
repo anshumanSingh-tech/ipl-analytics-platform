@@ -5,7 +5,7 @@ def build_batting_features(deliveries: pd.DataFrame) -> pd.DataFrame:
     
     d = deliveries[deliveries["is_wide"] == 0].copy()
     
-    agg = d.groupby("batter").agg(
+    agg = d.groupby("batsman").agg(
         total_runs = ("batsman_runs", "sum"),
         balls_faced = ("is_legal_delivery", "sum"),
         matches_batted = ("match_id", "nunique"),
@@ -23,27 +23,27 @@ def build_batting_features(deliveries: pd.DataFrame) -> pd.DataFrame:
     agg["runs_per_match"] = (agg["total_runs"] / agg["matches_batted"].replace(0, np.nan)).round(2)
     
     for phase in ["powerplay", "middle", "death"]:
-        phase_df = d[d["over_phase"] == phase].groupby("batter").agg(
+        phase_df = d[d["over_phase"] == phase].groupby("batsman").agg(
             _runs = ("batsman_runs", "sum"),
             _balls = ("is_legal_delivery", "sum"),
         ).reset_index()
         phase_df[f"sr_{phase}"] = (phase_df["_runs"] / phase_df["_balls"].replace(0, np.nan) * 100).round(2)
-        agg = agg.merge(phase_df[["batter", f"sr_{phase}"]], on="batter", how="left")
+        agg = agg.merge(phase_df[["batsman", f"sr_{phase}"]], on="batsman", how="left")
         
-    inning_scores = d.groupby(["batter", "match_id", "inning"])["batsman_runs"].sum().reset_index()
-    inning_scores.columns = ["batter", "match_id", "inning", "innings_runs"]
+    inning_scores = d.groupby(["batsman", "match_id", "inning"])["batsman_runs"].sum().reset_index()
+    inning_scores.columns = ["batsman", "match_id", "inning", "innings_runs"]
     
-    fifties = inning_scores[inning_scores["innings_runs"].between(50, 99)].groupby("batter").size().rename("fifties")
-    hundreds = inning_scores[inning_scores["innings_runs"] >= 100].groupby("batter").size().rename("hundreds")
+    fifties = inning_scores[inning_scores["innings_runs"].between(50, 99)].groupby("batsman").size().rename("fifties")
+    hundreds = inning_scores[inning_scores["innings_runs"] >= 100].groupby("batsman").size().rename("hundreds")
     
-    agg = agg.merge(fifties, on="batter", how="left")
-    agg = agg.merge(hundreds, on="batter", how="left")
+    agg = agg.merge(fifties, on="batsman", how="left")
+    agg = agg.merge(hundreds, on="batsman", how="left")
     agg["fifties"] = agg["fifties"].fillna(0).astype(int)
     agg["hundreds"] = agg["hundreds"].fillna(0).astype(int)
     
     agg = agg[agg["balls_faced"] >= 30].copy()
     
-    print(f"build_batting_features: {len(agg)} batters with 30+ balls faced")
+    print(f"build_batting_features: {len(agg)} batsmans with 30+ balls faced")
     return agg.sort_values("total_runs", ascending=False).reset_index(drop=True)
 
 

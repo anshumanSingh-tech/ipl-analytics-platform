@@ -143,8 +143,8 @@ def layout_player_explorer():
                     dcc.Dropdown(
                         id="batsman-search",
                         options=[{"label": p, "value": p}
-                                 for p in sorted(batting["batter"].unique())],
-                        value=batting.nlargest(1, "total_runs")["batter"].iloc[0],
+                                 for p in sorted(batting["batsman"].unique())],
+                        value=batting.nlargest(1, "total_runs")["batsman"].iloc[0],
                         placeholder="Select a batsman...",
                         clearable=False,
                     ),
@@ -154,7 +154,7 @@ def layout_player_explorer():
                     dcc.Dropdown(
                         id="batsman-compare",
                         options=[{"label": p, "value": p}
-                                 for p in sorted(batting["batter"].unique())],
+                                 for p in sorted(batting["batsman"].unique())],
                         placeholder="Add a second player...",
                     ),
                 ], md=4),

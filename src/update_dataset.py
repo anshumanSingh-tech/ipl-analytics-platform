@@ -156,7 +156,7 @@ def parse_json_match(filepath: Path, match_id: int) -> tuple:
                 over_data.get("deliveries", []), start=1
             ):
                 runs       = delivery.get("runs", {})
-                bat_runs   = safe_int(runs.get("batter", 0))
+                bat_runs   = safe_int(runs.get("batsman", 0))
                 extra_runs = safe_int(runs.get("extras", 0))
                 total_runs = safe_int(runs.get("total",  0))
 
@@ -188,7 +188,7 @@ def parse_json_match(filepath: Path, match_id: int) -> tuple:
                     "bowling_team"     : bowling_team,
                     "over"             : over_num,
                     "ball"             : ball_idx,
-                    "batter"           : delivery.get("batter",      np.nan),
+                    "batsman"           : delivery.get("batsman",      np.nan),
                     "non_striker"      : delivery.get("non_striker", np.nan),
                     "bowler"           : delivery.get("bowler",      np.nan),
                     "wide_runs"        : wide_runs,
