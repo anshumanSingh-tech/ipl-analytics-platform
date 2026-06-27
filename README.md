@@ -1,6 +1,6 @@
 ---
 title: IPL Analytics Platform
-emoji: cricket
+emoji: 🏏
 colorFrom: blue
 colorTo: purple
 sdk: docker
